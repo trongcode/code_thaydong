@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/imgHome"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/logo_asm"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-145dp"></ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgHome"
+        android:layout_marginBottom="104dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="@+id/imgHome"
+        tools:layout_editor_absoluteX="16dp">
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgHome"
+        android:layout_marginBottom="104dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="@+id/imgHome"
+        tools:layout_editor_absoluteX="16dp">
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnHomeForgot"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:layout_marginBottom="24dp"
+        android:background="@android:color/transparent"
+        android:backgroundTint="#F6918D"
+        android:text="Forgot Password"
+        android:textAllCaps="false"
+        android:textColor="#2196F3"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imgHome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </Button>
+
+    <Button
+        android:id="@+id/btnHomeSignUp"
+        android:layout_width="231dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="90dp"
+        android:backgroundTint="#F6918D"
+        android:text="Sign Up Account"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        app:cornerRadius="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </Button>
+
+    <Button
+        android:id="@+id/btnHomeSignIn"
+        android:layout_width="231dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="150dp"
+        android:backgroundTint="#F6918D"
+        android:text="Sign In Account"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        app:cornerRadius="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </Button>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
