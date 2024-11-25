@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Appquanlichitieu"
         tools:targetApi="31">
         <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
             android:name=".AddTransactionRevenueActivity"
             android:exported="false" />
         <activity
@@ -22,7 +25,7 @@
             android:name=".ExpenseActivity"
             android:exported="false" />
         <activity
-            android:name=".AddTransactionSpendingActivity"
+            android:name=".AddTransactionExpenseActivity"
             android:exported="false" />
         <activity
             android:name=".ForgotPasswordActivity"
@@ -36,7 +39,6 @@
         <activity
             android:name=".MainActivity"
             android:exported="true">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

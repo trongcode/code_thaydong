@@ -325,29 +325,19 @@
 
 
             <ImageButton
-                android:id="@+id/imageButton1"
+                android:id="@+id/btn_home"
                 android:layout_width="0dp"
-                android:layout_height="60dp"
+                android:layout_height="30dp"
                 android:layout_weight="1"
                 android:background="?attr/selectableItemBackgroundBorderless"
                 android:scaleType="centerInside"
-                android:src="@drawable/pencil" />
+                android:src="@drawable/home" />
 
 
             <ImageButton
-                android:id="@+id/imageButton2"
+                android:id="@+id/btn_chart"
                 android:layout_width="0dp"
-                android:layout_height="60dp"
-                android:layout_weight="1"
-                android:background="?attr/selectableItemBackgroundBorderless"
-                android:scaleType="centerInside"
-                android:src="@drawable/calendar" />
-
-
-            <ImageButton
-                android:id="@+id/imageButton3"
-                android:layout_width="0dp"
-                android:layout_height="60dp"
+                android:layout_height="30dp"
                 android:layout_weight="1"
                 android:background="?attr/selectableItemBackgroundBorderless"
                 android:scaleType="centerInside"
@@ -355,13 +345,31 @@
 
 
             <ImageButton
-                android:id="@+id/imageButton4"
+                android:id="@+id/btn_edit"
                 android:layout_width="0dp"
-                android:layout_height="60dp"
+                android:layout_height="70dp"
                 android:layout_weight="1"
                 android:background="?attr/selectableItemBackgroundBorderless"
                 android:scaleType="centerInside"
-                android:src="@drawable/icon_menu" />
+                android:src="@drawable/add" />
+
+
+            <ImageButton
+                android:id="@+id/btn_datetime"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:scaleType="centerInside"
+                android:src="@drawable/time" />
+            <ImageButton
+                android:id="@+id/btn_info"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:scaleType="centerInside"
+                android:src="@drawable/user" />
 
         </LinearLayout>
     </RelativeLayout>

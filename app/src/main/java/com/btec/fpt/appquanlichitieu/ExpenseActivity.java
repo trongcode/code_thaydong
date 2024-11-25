@@ -48,11 +48,11 @@ public class ExpenseActivity extends AppCompatActivity {
             }
         });
 
-        ImageButton item_icon7 = findViewById(R.id.item_icon7);
+        ImageButton item_icon7 = findViewById(R.id .item_icon7);
         item_icon7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(ExpenseActivity.this, AddTransactionSpendingActivity.class);
+                Intent intent = new Intent(ExpenseActivity.this, AddTransactionExpenseActivity.class);
                 startActivity(intent);
             }
         });
